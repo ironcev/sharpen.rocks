@@ -1,161 +1,36 @@
 ---
 title: "Sharpen v0.1.1 - Icon Matters"
 date: 2017-11-23T00:00:01-00:00
-description: "[TODO: Icon Matters]"
+description: "Icon Matters. It matters so much that it even deserves its own (micro)release ;-)"
 categories: []
 keywords: ["sharpen", "release"]
 slug: ""
 aliases: []
 toc: false
-draft: true
+draft: false
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit :wink:. Nullam nibh lorem, porta ut urna ut, scelerisque consequat magna. Pellentesque vel massa sed tortor cursus tempus at eget ligula. Duis leo odio, luctus eget suscipit vel, pharetra id velit. Mauris arcu enim, mollis placerat porta in, sagittis a nisl. Nam et augue eu justo porta tincidunt. In luctus nisl dolor, sed aliquet augue elementum eget. Vivamus laoreet, mauris vitae aliquam faucibus, tellus dolor feugiat felis, ac facilisis diam eros eget est.
+# Forgotten Detail
+Immediately after shipping the [Sharpen v0.1.0]({{< ref "sharpen-v0.1.0-just-ship-it.md" >}}) I've noticed that I've forgotten a slight detail. The information about the logo was missing in the [VSIX package manifest](https://docs.microsoft.com/de-de/visualstudio/extensibility/vsix-extension-schema-2-0-reference). In particular, the optional `<Icon>` element wasn't specified. And as the documentation clearly states it
 
-Ut dolor nunc, dictum vitae molestie pulvinar, condimentum quis dui. Mauris ullamcorper tincidunt magna, quis tristique ligula laoreet fringilla. Nam dapibus tellus vel est vehicula, sed mattis sapien tempus. Aenean suscipit erat in lacus luctus lacinia. Donec in justo arcu. Nunc nibh lorem, ultricies in nunc ac, posuere feugiat ligula. In convallis, urna dapibus vehicula gravida, justo massa aliquam nunc, vitae gravida justo metus non felis. Mauris sed augue risus. Quisque commodo quam in risus porttitor ultrices. Fusce pellentesque eget eros vitae pulvinar. Maecenas nec felis tortor. Etiam dictum felis eget augue congue finibus. Etiam nibh sapien, cursus sit amet feugiat non, posuere tincidunt dui.
+> If no `Icon` element is specified, the UI uses a default.
 
-Ã ¾ Ķ Ŀ Ƿ ע ऋ ਉ ጇ ᚙ ឿ ظ
+And the default icon looks, well... like this :-(
 
-# This is H1
+![Visual Studio Extension Default Icon](/images/news/sharpen-v0.1.1-icon-matters/visual-studio-extension-default-icon.png)
 
-Maecenas nec felis tortor. Etiam dictum felis eget augue congue finibus. Etiam nibh sapien, cursus sit amet feugiat non, posuere tincidunt dui.
+Yes, I've crafted the Sharpen's logo in less then 10 minutes. Those of you who follow [Sharpen on Twitter](https://twitter.com/sharpenrocks) are already aware of that:
 
-## This is H2
+{{< tweet 934588421854650370 >}}
 
-Maecenas nec felis tortor. Etiam dictum felis eget augue congue finibus. Etiam nibh sapien, cursus sit amet feugiat non, posuere tincidunt dui.
+And yes, while crafting it I completely ignored the advice to [choose the logo wisely](https://www.inc.com/issie-lapowsky/why-company-logo-matters.html). I simply made it.
 
-### This is H3
+I'm sure the creators of the default Visual Studio Extension icon put much more effort into crafting it, then I put into Sharpen's logo.
 
-Maecenas nec felis tortor. Etiam dictum felis eget augue congue finibus. Etiam nibh sapien, cursus sit amet feugiat non, posuere tincidunt dui.
+But still, I couldn't stand having that icon presenting Sharpen on the Marketplace and in the Visual Studio "Extensions and Updates" dialog.
 
-#### This is H4
+I didn't expect to ship the version 0.1.1 so early :-) but I simply had to fix this forgotten detail. Icon matters. It matters so much that it deserves its own (micro)release :-)
 
-Maecenas nec felis tortor. Etiam dictum felis eget augue congue finibus. Etiam nibh sapien, cursus sit amet feugiat non, posuere tincidunt dui.
+And voilà the Sharpen v0.1.1 is there, [available on the Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ironcev.sharpen), featuring more or less only the proper Sharpen's logo.
 
-##### This is H5
-
-Maecenas nec felis tortor. Etiam dictum felis eget augue congue finibus. Etiam nibh sapien, cursus sit amet feugiat non, posuere tincidunt dui.
-
-###### This is H6
-
-Maecenas nec felis tortor. Etiam dictum felis eget augue congue finibus. Etiam nibh sapien, cursus sit amet feugiat non, posuere tincidunt dui.
-
----
-
-Use the `printf()` function. You can use also ```print()```.
-
-*italics*
-
-**bold**
-
-~~strikethrough text~~
-
-<u>underline</u>
-
-:heart_eyes:
-:boom:
-:smiling_imp:
-
-> Blockquote: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac dolor elementum, consectetur tortor in, lacinia velit. Aenean dignissim tellus justo, sit amet suscipit tortor lacinia non.
-
-*   Red
-*   Green
-*   Blue
-
-1.  Red
-2. 	Green
-3.	Blue
-
-- [ ] Red
-- [ ] Green
-- [ ] **Blue**
-- [ ] Yellow
-- [x] Orange
-
-```
-import os
-
-# Very long line, very long line, very long line, very long line, very long line, very long line, very long line, very long line.
-filename = os.environ.get('PYTHONSTARTUP')
-if filename and os.path.isfile(filename):
-    with open(filename) as fobj:
-        startup_file = fobj.read()
-    exec(startup_file)
-```
-
-```python
-import os
-
-filename = os.environ.get('PYTHONSTARTUP')
-if filename and os.path.isfile(filename):
-    with open(filename) as fobj:
-        startup_file = fobj.read()
-    exec(startup_file)
-```
-
-{{< highlight html >}}
-<section id="main">
-    <div>
-        <h1 id="title">{{ .Title }}</h1>
-        {{ range .Data.Pages }}
-            {{ .Render "summary"}}
-        {{ end }}
-    </div>
-</section>
-{{< /highlight >}}
-
-First Header | Second Header | Third Header
------------- | ------------- | ------------
-Content Cell | Content Cell  | Content Cell
-Content Cell | Content Cell  | Content Cell
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-First Header | Second Header | Third Header
-:----------- | :-----------: | -----------:
-Left         | Center        | Right
-Left         | Center        | Right
-
-You can create footnotes like this[^footnote].
-
-[^footnote]: Here is the *text* of the **footnote**.
-
-This is [an example](http://example.com/ "Title") link.
-
-An email <example@example.com> link.
-
-![Alt text](/images/sharpen-logo.png "Sharpen Logo")
-
-{{< figure src="/images/sharpen-logo.png" title="Sharpen Logo" >}}
-
-{{< figure src="/images/sharpen-logo.png" title="Sharpen Logo" lightbox="true" >}}
-
-{{< instagram BbTLbYSH59J >}}
-
-{{< instagram BahBaqvnv5N hidecaption >}}
-
-{{< speakerdeck 50021f75cf1db900020005e7 >}}
-
-{{< tweet 935115588166471680 >}}
-
-{{< youtube wwKBHrMy-Wc >}}
-
-{{< vimeo 111271422 >}}
-
-{{< gist spf13 7896402 >}}
-
-# Table of Contents
-  * [Chapter 1](#chapter-1)
-  * [Chapter 2](#chapter-2)
-  * [Chapter 3](#chapter-3)
-
-## Chapter 1 <a id="chapter-1"></a>
-Content for chapter one.
-
-## Chapter 2 <a id="chapter-2"></a>
-Content for chapter one.
-
-## Chapter 3 <a id="chapter-3"></a>
-Content for chapter one.
+# Release Content
+{{< release "0.1.1" >}} The only notable difference to v0.1.0 is the logo.
