@@ -62,7 +62,7 @@ sections:
     cta: ""
     link: ""
     color_classes: bg-primary-color-light black
-    image: /images/sections/install-sharpen.png
+    image: /images/sections/refactor-the-code.png
     copy: "Let Sharpen refactor your code. Don't worry. Sharpen by default refactors only the parts of code that clearly benefit of introducing a new C# feature."
     disclaimer: "Refactoring is still a work in progress."
 ---
