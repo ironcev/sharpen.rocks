@@ -1,0 +1,354 @@
+{
+  "media": {
+    "types": [
+      {
+        "type": "application/javascript",
+        "string": "application/javascript+js",
+        "mainType": "application",
+        "subType": "javascript",
+        "suffix": "js",
+        "delimiter": "."
+      },
+      {
+        "type": "application/json",
+        "string": "application/json+json",
+        "mainType": "application",
+        "subType": "json",
+        "suffix": "json",
+        "delimiter": "."
+      },
+      {
+        "type": "application/rss",
+        "string": "application/rss+xml",
+        "mainType": "application",
+        "subType": "rss",
+        "suffix": "xml",
+        "delimiter": "."
+      },
+      {
+        "type": "application/xml",
+        "string": "application/xml+xml",
+        "mainType": "application",
+        "subType": "xml",
+        "suffix": "xml",
+        "delimiter": "."
+      },
+      {
+        "type": "text/calendar",
+        "string": "text/calendar+ics",
+        "mainType": "text",
+        "subType": "calendar",
+        "suffix": "ics",
+        "delimiter": "."
+      },
+      {
+        "type": "text/css",
+        "string": "text/css+css",
+        "mainType": "text",
+        "subType": "css",
+        "suffix": "css",
+        "delimiter": "."
+      },
+      {
+        "type": "text/csv",
+        "string": "text/csv+csv",
+        "mainType": "text",
+        "subType": "csv",
+        "suffix": "csv",
+        "delimiter": "."
+      },
+      {
+        "type": "text/html",
+        "string": "text/html+html",
+        "mainType": "text",
+        "subType": "html",
+        "suffix": "html",
+        "delimiter": "."
+      },
+      {
+        "type": "text/plain",
+        "string": "text/plain+txt",
+        "mainType": "text",
+        "subType": "plain",
+        "suffix": "txt",
+        "delimiter": "."
+      }
+    ]
+  },
+  "output": {
+    "formats": [
+      {
+        "MediaType": "text/html+html",
+        "name": "AMP",
+        "mediaType": {
+          "type": "text/html",
+          "string": "text/html+html",
+          "mainType": "text",
+          "subType": "html",
+          "suffix": "html",
+          "delimiter": "."
+        },
+        "path": "amp",
+        "baseName": "index",
+        "rel": "amphtml",
+        "protocol": "",
+        "isPlainText": false,
+        "isHTML": true,
+        "noUgly": false,
+        "notAlternative": false
+      },
+      {
+        "MediaType": "text/css+css",
+        "name": "CSS",
+        "mediaType": {
+          "type": "text/css",
+          "string": "text/css+css",
+          "mainType": "text",
+          "subType": "css",
+          "suffix": "css",
+          "delimiter": "."
+        },
+        "path": "",
+        "baseName": "styles",
+        "rel": "stylesheet",
+        "protocol": "",
+        "isPlainText": true,
+        "isHTML": false,
+        "noUgly": false,
+        "notAlternative": true
+      },
+      {
+        "MediaType": "text/csv+csv",
+        "name": "CSV",
+        "mediaType": {
+          "type": "text/csv",
+          "string": "text/csv+csv",
+          "mainType": "text",
+          "subType": "csv",
+          "suffix": "csv",
+          "delimiter": "."
+        },
+        "path": "",
+        "baseName": "index",
+        "rel": "alternate",
+        "protocol": "",
+        "isPlainText": true,
+        "isHTML": false,
+        "noUgly": false,
+        "notAlternative": false
+      },
+      {
+        "MediaType": "text/calendar+ics",
+        "name": "Calendar",
+        "mediaType": {
+          "type": "text/calendar",
+          "string": "text/calendar+ics",
+          "mainType": "text",
+          "subType": "calendar",
+          "suffix": "ics",
+          "delimiter": "."
+        },
+        "path": "",
+        "baseName": "index",
+        "rel": "alternate",
+        "protocol": "webcal://",
+        "isPlainText": true,
+        "isHTML": false,
+        "noUgly": false,
+        "notAlternative": false
+      },
+      {
+        "MediaType": "text/html+html",
+        "name": "HTML",
+        "mediaType": {
+          "type": "text/html",
+          "string": "text/html+html",
+          "mainType": "text",
+          "subType": "html",
+          "suffix": "html",
+          "delimiter": "."
+        },
+        "path": "",
+        "baseName": "index",
+        "rel": "canonical",
+        "protocol": "",
+        "isPlainText": false,
+        "isHTML": true,
+        "noUgly": false,
+        "notAlternative": false
+      },
+      {
+        "MediaType": "application/json+json",
+        "name": "JSON",
+        "mediaType": {
+          "type": "application/json",
+          "string": "application/json+json",
+          "mainType": "application",
+          "subType": "json",
+          "suffix": "json",
+          "delimiter": "."
+        },
+        "path": "",
+        "baseName": "index",
+        "rel": "alternate",
+        "protocol": "",
+        "isPlainText": true,
+        "isHTML": false,
+        "noUgly": false,
+        "notAlternative": false
+      },
+      {
+        "MediaType": "application/rss+xml",
+        "name": "RSS",
+        "mediaType": {
+          "type": "application/rss",
+          "string": "application/rss+xml",
+          "mainType": "application",
+          "subType": "rss",
+          "suffix": "xml",
+          "delimiter": "."
+        },
+        "path": "",
+        "baseName": "index",
+        "rel": "alternate",
+        "protocol": "",
+        "isPlainText": false,
+        "isHTML": false,
+        "noUgly": true,
+        "notAlternative": false
+      }
+    ],
+    "layouts": [
+      {
+        "Example": "AMP home, with theme \"demoTheme\".",
+        "OutputFormat": "AMP",
+        "Suffix": "html",
+        "Template Lookup Order": [
+          "layouts/index.amp.html",
+          "layouts/index.html",
+          "layouts/_default/list.amp.html",
+          "layouts/_default/list.html",
+          "demoTheme/layouts/index.amp.html",
+          "demoTheme/layouts/index.html",
+          "demoTheme/layouts/_default/list.amp.html",
+          "demoTheme/layouts/_default/list.html"
+        ]
+      },
+      {
+        "Example": "AMP home, French language\".",
+        "OutputFormat": "AMP",
+        "Suffix": "html",
+        "Template Lookup Order": [
+          "layouts/index.fr.amp.html",
+          "layouts/index.amp.html",
+          "layouts/index.fr.html",
+          "layouts/index.html",
+          "layouts/_default/list.fr.amp.html",
+          "layouts/_default/list.amp.html",
+          "layouts/_default/list.fr.html",
+          "layouts/_default/list.html"
+        ]
+      },
+      {
+        "Example": "RSS home, no theme.",
+        "OutputFormat": "RSS",
+        "Suffix": "xml",
+        "Template Lookup Order": [
+          "layouts/rss.xml",
+          "layouts/_default/rss.xml",
+          "layouts/_internal/_default/rss.xml"
+        ]
+      },
+      {
+        "Example": "JSON home, no theme.",
+        "OutputFormat": "JSON",
+        "Suffix": "json",
+        "Template Lookup Order": [
+          "layouts/index.json.json",
+          "layouts/index.json",
+          "layouts/_default/list.json.json",
+          "layouts/_default/list.json"
+        ]
+      },
+      {
+        "Example": "CSV regular, \"layout: demolayout\" in front matter.",
+        "OutputFormat": "CSV",
+        "Suffix": "csv",
+        "Template Lookup Order": [
+          "layouts/_default/demolayout.csv.csv",
+          "layouts/_default/demolayout.csv"
+        ]
+      },
+      {
+        "Example": "JSON regular, \"type: demotype\" in front matter.",
+        "OutputFormat": "JSON",
+        "Suffix": "json",
+        "Template Lookup Order": [
+          "layouts/demotype/single.json.json",
+          "layouts/demotype/single.json",
+          "layouts/_default/single.json.json",
+          "layouts/_default/single.json"
+        ]
+      },
+      {
+        "Example": "HTML regular.",
+        "OutputFormat": "HTML",
+        "Suffix": "html",
+        "Template Lookup Order": [
+          "layouts/_default/single.html.html",
+          "layouts/_default/single.html"
+        ]
+      },
+      {
+        "Example": "AMP regular.",
+        "OutputFormat": "AMP",
+        "Suffix": "html",
+        "Template Lookup Order": [
+          "layouts/_default/single.amp.html",
+          "layouts/_default/single.html"
+        ]
+      },
+      {
+        "Example": "Calendar blog section.",
+        "OutputFormat": "Calendar",
+        "Suffix": "ics",
+        "Template Lookup Order": [
+          "layouts/section/blog.calendar.ics",
+          "layouts/section/blog.ics",
+          "layouts/blog/list.calendar.ics",
+          "layouts/blog/list.ics",
+          "layouts/_default/section.calendar.ics",
+          "layouts/_default/section.ics",
+          "layouts/_default/list.calendar.ics",
+          "layouts/_default/list.ics"
+        ]
+      },
+      {
+        "Example": "Calendar taxonomy list.",
+        "OutputFormat": "Calendar",
+        "Suffix": "ics",
+        "Template Lookup Order": [
+          "layouts/taxonomy/tag.calendar.ics",
+          "layouts/taxonomy/tag.ics",
+          "layouts/_default/taxonomy.calendar.ics",
+          "layouts/_default/taxonomy.ics",
+          "layouts/_default/list.calendar.ics",
+          "layouts/_default/list.ics"
+        ]
+      },
+      {
+        "Example": "Calendar taxonomy term.",
+        "OutputFormat": "Calendar",
+        "Suffix": "ics",
+        "Template Lookup Order": [
+          "layouts/taxonomy/tag.terms.calendar.ics",
+          "layouts/taxonomy/tag.terms.ics",
+          "layouts/_default/terms.calendar.ics",
+          "layouts/_default/terms.ics"
+        ]
+      }
+    ]
+  },
+  "tpl": {
+  }
+}

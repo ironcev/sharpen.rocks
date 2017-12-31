@@ -1,0 +1,6 @@
+{{ with .Site.Social.twitter }}
+  <a href="https://twitter.com/intent/follow?screen_name={{ . }}" title="Follow Sharpen on Twitter" class="link-transition twitter link dib z-999 pt3 pt0-l mr2">
+    {{ partial "svg/twitter.svg" (dict "size" "32px") }}
+  </a>
+{{ end }}
+<a class="github-button needs-js link primary-color-dark" href="https://github.com/TODO" data-size="large" data-show-count="false" aria-label="Star Sharpen on GitHub">Star</a>
