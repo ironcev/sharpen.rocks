@@ -37,7 +37,7 @@ sections:
 
   - heading: "1. Install Sharpen"
     cta: "Download Sharpen"
-    link: "TODO-IG"
+    link: "https://marketplace.visualstudio.com/items?itemName=ironcev.sharpen"
     color_classes: bg-accent-color white
     image: /images/sections/install-sharpen.png
     copy: "Sharpen is available on the Visual Studio Marketplace. Install it directly from Visual Studio by using \"Tools -> Extensions and Updates\" or download it via the below link."

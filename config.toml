@@ -74,13 +74,13 @@ twitter = "sharpenrocks"
   ## Setting this to true will add a "noindex" to *EVERY* page on the site
   removefromexternalsearch = false
   ## GitHub repo for site footer (include trailing slash)
-  ghrepo = "https://github.com/TODO/"
+  ghrepo = "https://github.com/sharpenrocks/Sharpen/"
   ## GitHub Repo for filing a new issue
-  github_repo = "https://github.com/TODO/issues/new"
+  github_repo = "https://github.com/sharpenrocks/Sharpen/issues/new"
   ### Edit content repo (set to automatically enter "edit" mode; this is good for "improve this page" links)
-  ghdocsrepo = "https://github.com/TODO-THIS-SITE/tree/master/docs"
+  ghdocsrepo = "https://github.com/sharpenrocks/sharpen.rocks/tree/master/docs"
   # First one is picked as the Twitter card image if not set on page.
-  images = ["images/gohugoio-card.png"]
+  images = ["images/sharpen-logo.png"]
 
   flex_box_interior_classes = "flex-auto w-100 w-40-l mr3 mb3 bg-white ba b--moon-gray nested-copy-line-height"
 
@@ -120,7 +120,7 @@ twitter = "sharpenrocks"
     icon = true
     identifier = "download"
     post = "external"
-    url = "https://TODO"
+    url = "https://marketplace.visualstudio.com/items?itemName=ironcev.sharpen"
 
 
   [[menu.global]]
@@ -128,4 +128,4 @@ twitter = "sharpenrocks"
     weight = 200
     identifier = "github"
     post = "external"
-    url = "https://github.com/TODO/"
+    url = "https://github.com/sharpenrocks/Sharpen"
