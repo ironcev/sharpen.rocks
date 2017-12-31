@@ -1,161 +1,47 @@
 ---
 title: "Sharpen v0.2.0 - Default Expressions in Action"
 date: 2017-12-14T00:00:00-00:00
-description: "[TODO: Default Expressions in Action]"
+description: "Sharpen v0.2.0 is there :-) Featuring C# 7.1 default expressions."
 categories: []
 keywords: ["sharpen", "release"]
 slug: ""
 aliases: []
 toc: false
-draft: true
+draft: false
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit :wink:. Nullam nibh lorem, porta ut urna ut, scelerisque consequat magna. Pellentesque vel massa sed tortor cursus tempus at eget ligula. Duis leo odio, luctus eget suscipit vel, pharetra id velit. Mauris arcu enim, mollis placerat porta in, sagittis a nisl. Nam et augue eu justo porta tincidunt. In luctus nisl dolor, sed aliquet augue elementum eget. Vivamus laoreet, mauris vitae aliquam faucibus, tellus dolor feugiat felis, ac facilisis diam eros eget est.
+# Defining Sharpen's Release Priorities
+Defining Sharpen's release and feature priorities is not going to be an easy task. That fact was clear to me from the very first day I started working on Sharpen. In this early stage of the project literally every feature is equally needed and equally important:
 
-Ut dolor nunc, dictum vitae molestie pulvinar, condimentum quis dui. Mauris ullamcorper tincidunt magna, quis tristique ligula laoreet fringilla. Nam dapibus tellus vel est vehicula, sed mattis sapien tempus. Aenean suscipit erat in lacus luctus lacinia. Donec in justo arcu. Nunc nibh lorem, ultricies in nunc ac, posuere feugiat ligula. In convallis, urna dapibus vehicula gravida, justo massa aliquam nunc, vitae gravida justo metus non felis. Mauris sed augue risus. Quisque commodo quam in risus porttitor ultrices. Fusce pellentesque eget eros vitae pulvinar. Maecenas nec felis tortor. Etiam dictum felis eget augue congue finibus. Etiam nibh sapien, cursus sit amet feugiat non, posuere tincidunt dui.
+- **Adding more analyzers** to get suggestions for more C# language features.
+- **Providing recommendations** for those suggestions. Without recommendations, Sharpen will hardly differ from other static analysis tools that blindly suggest usage of a feature, just because it can be used.
+- **Creating built-in C# documentation.** Learning is, after all, Sharpen's main purpose!
+- **Implementing refactoring.** The fact that [10,000+ places in my code]({{ ref "sharpen-v0.1.0-just-ship-it.md" }}) would benefit of a new C# feature only frustrates me, if I cannot apply those feature automatically.
+- **Building a state-of-the art UX.** Displaying thousands of results in a single tree view is fine for the moment but definitely not satisfying even on a mid-term.
 
-Ã ¾ Ķ Ŀ Ƿ ע ऋ ਉ ጇ ᚙ ឿ ظ
+And these are just a few of the major development directions.
 
-# This is H1
+Luckily, in this very early stage of the project I can simplify the prioritization process. At the moment I primarily focus on those features that will help make my talk on [Losing Weight With C# 7+](https://github.com/ironcev/public-talks/tree/master/LosingWeightWithCSharp7%2B) as practical and tangible as possible. And thus, the release 0.2.0, following my talk, fully focus on adding analyzers for [C# 7.1 default expressions](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/default-value-expressions).
 
-Maecenas nec felis tortor. Etiam dictum felis eget augue congue finibus. Etiam nibh sapien, cursus sit amet feugiat non, posuere tincidunt dui.
+# Default Expressions
+So, Sharpen v0.2.0 is there, available for [download on the Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ironcev.sharpen) :-)
 
-## This is H2
+It brings three new suggestions, namely:
 
-Maecenas nec felis tortor. Etiam dictum felis eget augue congue finibus. Etiam nibh sapien, cursus sit amet feugiat non, posuere tincidunt dui.
+- Use default expression in optional constructor parameters
+- Use default expression in optional method parameters
+- Use default expression in return statements
 
-### This is H3
+These are in practice the three most prominent places where the default values are used.
 
-Maecenas nec felis tortor. Etiam dictum felis eget augue congue finibus. Etiam nibh sapien, cursus sit amet feugiat non, posuere tincidunt dui.
+As always I was curious of the findings in the real-life code. And for sure (this time without a surprise) there were many findings worth showcasing. Just to give you a glimpse of the new feature, here are the default expression related findings in the [NHibernate](http://nhibernate.info/) code:
 
-#### This is H4
+![Sharpen results for default expressions usages in NHibernate](/images/news/sharpen-v0.2.0-default-expressions-in-action/sharpen-results-default-expressions-in-nhibernate.png)
 
-Maecenas nec felis tortor. Etiam dictum felis eget augue congue finibus. Etiam nibh sapien, cursus sit amet feugiat non, posuere tincidunt dui.
+Here is on of the interesting findings. Async methods in NHibernate follow the usual pattern of accepting an optional [CancellationToken](https://msdn.microsoft.com/en-us/library/system.threading.cancellationtoken(v=vs.110).aspx) parameter. And since the `CancellationToken` is a `struct`, the only way to provide the default value, prior to C# 7.1, was to write `default(CancellationToken)`. With C# 7.1 this simply narrows down to `default`. I would personally love to see NHibernate's code loosing a bit of weight in this area :-)
 
-##### This is H5
+This is just one of several interesting findings related to default expressions. I plan to share generally interesting Sharpen findings via a series of blog posts called "Sharpen Weekly". Stay tuned ;-)
 
-Maecenas nec felis tortor. Etiam dictum felis eget augue congue finibus. Etiam nibh sapien, cursus sit amet feugiat non, posuere tincidunt dui.
+# Release Content
+{{< release "0.2.0" >}}
 
-###### This is H6
-
-Maecenas nec felis tortor. Etiam dictum felis eget augue congue finibus. Etiam nibh sapien, cursus sit amet feugiat non, posuere tincidunt dui.
-
----
-
-Use the `printf()` function. You can use also ```print()```.
-
-*italics*
-
-**bold**
-
-~~strikethrough text~~
-
-<u>underline</u>
-
-:heart_eyes:
-:boom:
-:smiling_imp:
-
-> Blockquote: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac dolor elementum, consectetur tortor in, lacinia velit. Aenean dignissim tellus justo, sit amet suscipit tortor lacinia non.
-
-*   Red
-*   Green
-*   Blue
-
-1.  Red
-2. 	Green
-3.	Blue
-
-- [ ] Red
-- [ ] Green
-- [ ] **Blue**
-- [ ] Yellow
-- [x] Orange
-
-```
-import os
-
-# Very long line, very long line, very long line, very long line, very long line, very long line, very long line, very long line.
-filename = os.environ.get('PYTHONSTARTUP')
-if filename and os.path.isfile(filename):
-    with open(filename) as fobj:
-        startup_file = fobj.read()
-    exec(startup_file)
-```
-
-```python
-import os
-
-filename = os.environ.get('PYTHONSTARTUP')
-if filename and os.path.isfile(filename):
-    with open(filename) as fobj:
-        startup_file = fobj.read()
-    exec(startup_file)
-```
-
-{{< highlight html >}}
-<section id="main">
-    <div>
-        <h1 id="title">{{ .Title }}</h1>
-        {{ range .Data.Pages }}
-            {{ .Render "summary"}}
-        {{ end }}
-    </div>
-</section>
-{{< /highlight >}}
-
-First Header | Second Header | Third Header
------------- | ------------- | ------------
-Content Cell | Content Cell  | Content Cell
-Content Cell | Content Cell  | Content Cell
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-First Header | Second Header | Third Header
-:----------- | :-----------: | -----------:
-Left         | Center        | Right
-Left         | Center        | Right
-
-You can create footnotes like this[^footnote].
-
-[^footnote]: Here is the *text* of the **footnote**.
-
-This is [an example](http://example.com/ "Title") link.
-
-An email <example@example.com> link.
-
-![Alt text](/images/sharpen-logo.png "Sharpen Logo")
-
-{{< figure src="/images/sharpen-logo.png" title="Sharpen Logo" >}}
-
-{{< figure src="/images/sharpen-logo.png" title="Sharpen Logo" lightbox="true" >}}
-
-{{< instagram BbTLbYSH59J >}}
-
-{{< instagram BahBaqvnv5N hidecaption >}}
-
-{{< speakerdeck 50021f75cf1db900020005e7 >}}
-
-{{< tweet 935115588166471680 >}}
-
-{{< youtube wwKBHrMy-Wc >}}
-
-{{< vimeo 111271422 >}}
-
-{{< gist spf13 7896402 >}}
-
-# Table of Contents
-  * [Chapter 1](#chapter-1)
-  * [Chapter 2](#chapter-2)
-  * [Chapter 3](#chapter-3)
-
-## Chapter 1 <a id="chapter-1"></a>
-Content for chapter one.
-
-## Chapter 2 <a id="chapter-2"></a>
-Content for chapter one.
-
-## Chapter 3 <a id="chapter-3"></a>
-Content for chapter one.
+[Download Sharpen v0.2.0 from the Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ironcev.sharpen) and give it a try on your own. I'm curios how interesting your findings will be :-)
