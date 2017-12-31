@@ -1,4 +1,4 @@
 #!/bin/bash
 
-git subtree pull --prefix=themes/gohugoioTheme/ git@github.com:gohugoio/gohugoioTheme.git master --squash
+git subtree pull --prefix=themes/gohugoioTheme/ https://github.com/sharpenrocks/gohugoioTheme.git master --squash
 
