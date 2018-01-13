@@ -15,7 +15,7 @@ Defining Sharpen's release and feature priorities is not going to be an easy tas
 - **Adding more analyzers** to get suggestions for more C# language features.
 - **Providing recommendations** for those suggestions. Without recommendations, Sharpen will hardly differ from other static analysis tools that blindly suggest usage of a feature, just because it can be used.
 - **Creating built-in C# documentation.** Learning is, after all, Sharpen's main purpose!
-- **Implementing refactoring.** The fact that [10,000+ places in my code]({{ ref "sharpen-v0.1.0-just-ship-it.md" }}) would benefit of a new C# feature only frustrates me, if I cannot apply those feature automatically.
+- **Implementing refactoring.** The fact that [10,000+ places in my code]({{< ref "sharpen-v0.1.0-just-ship-it.md" >}}) would benefit of a new C# feature only frustrates me, if I cannot apply those feature automatically.
 - **Building a state-of-the art UX.** Displaying thousands of results in a single tree view is fine for the moment but definitely not satisfying even on a mid-term.
 
 And these are just a few of the major development directions.
