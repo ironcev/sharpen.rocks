@@ -7,7 +7,7 @@ keywords: ["sharpen-weekly", "expression-bodied-members", "default-expressions"]
 slug: ""
 aliases: []
 toc: false
-draft: true
+draft: false
 ---
 # Expression Bodied Members and Default Expressions, Hand in Hand
 Immediately after [implementing the C# 7.1 default expressions in Sharpen]({{< ref "news/sharpen-v0.2.0-default-expressions-in-action.md" >}}) I ran them on the [NHibernate](http://nhibernate.info/) code. And here is one of my absolutely favorite findings.
