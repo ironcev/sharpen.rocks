@@ -85,7 +85,7 @@ Here is what the compiler will generate:
         this.GetSingleOutValue(out num);
     }
 
-[Try this example on your own on SharpLab.](https://sharplab.io/#v2:D4AjIAQJhBxBTALoglgOwOYGV0YDbwDyArogGoCGex8AsAFDggDeDTTEAzCAEYD2fPHCQ5MBEuSo0AFH1Ih0iEADcp8AJRt2YVo23tV1eCAC8IAAwBuLfvAQA7CEQAnGtb3aAvgxvsukABYQAGE8CgBncJQAYyoAdQoAT2lND3ZdWyZFFTV3TPAERFF8IlJKI1l5Qxp1PP1vel8ObggguJREAAsJSmcUCh4CFKbwDPzhItxxMrVKpWzqjTqvHzTmwJB2rp6KPoGCAEE0ABMAFUSAB3gASTQAM3hneDRo+GG10ZHtQuLpyQq5EpVM4ckZal8QA0If5WpsOp0ACIocKxZzHd62Mb5H5TUr/GSAkAAfXBHzADSYDSAA)
+[Try this example on SharpLab.](https://sharplab.io/#v2:D4AjIAQJhBxBTALoglgOwOYGV0YDbwDyArogGoCGex8AsAFDggDeDTTEAzCAEYD2fPHCQ5MBEuSo0AFH1Ih0iEADcp8AJRt2YVo23tV1eCAC8IAAwBuLfvAQA7CEQAnGtb3aAvgxvsukABYQAGE8CgBncJQAYyoAdQoAT2lND3ZdWyZFFTV3TPAERFF8IlJKI1l5Qxp1PP1vel8ObggguJREAAsJSmcUCh4CFKbwDPzhItxxMrVKpWzqjTqvHzTmwJB2rp6KPoGCAEE0ABMAFUSAB3gASTQAM3hneDRo+GG10ZHtQuLpyQq5EpVM4ckZal8QA0If5WpsOp0ACIocKxZzHd62Mb5H5TUr/GSAkAAfXBHzADSYDSAA)
 
 **The compiler output is completely the same in all three cases which is not surprising at all. Out variables, used like this, are merely a syntax sugar around the "classical usage".**
 
@@ -128,7 +128,7 @@ Compiler however does not do such optimization. It rather creates a "placeholder
     int num2;
     this.GetSeveralOutValues(out num, out num2);
 
-[Try this example on your own on SharpLab.](https://sharplab.io/#v2:D4AQTABA4gpgLnAlgOwOYGUYDcYCcCGANgPICucAakaTAM4CwAUAN5MTsQgDMEARgPb9C0eJhwES5KoRq0AFP3IQUcCADNEuWnAA0ERapURaMAMb9kAEwCUbDq0Ycn6zdogBeCAAYA3HefGZhaWHt5+jgGcAOwQcLg04U4Avkz+nDwgACwQACKItKb4uJYoqABC/HAAFtKycrYR7A6RInBieERklNR0CkoA+noGEP3WiRwpjJNAA)
+[Try this example on SharpLab.](https://sharplab.io/#v2:D4AQTABA4gpgLnAlgOwOYGUYDcYCcCGANgPICucAakaTAM4CwAUAN5MTsQgDMEARgPb9C0eJhwES5KoRq0AFP3IQUcCADNEuWnAA0ERapURaMAMb9kAEwCUbDq0Ycn6zdogBeCAAYA3HefGZhaWHt5+jgGcAOwQcLg04U4Avkz+nDwgACwQACKItKb4uJYoqABC/HAAFtKycrYR7A6RInBieERklNR0CkoA+noGEP3WiRwpjJNAA)
 
 If we give it a thought it will immediately be clear why such "optimization" is in general not possible. Yes, the caller is not interested in the returned values, but in general case, those values could be used within the method itself. Moreover, the method contract can assume that the two arguments point to two different variables. We must not forget that **assigning a value to an out variable inside of the method actually assigns the value to the original variable that was passed as an argument**.
 
