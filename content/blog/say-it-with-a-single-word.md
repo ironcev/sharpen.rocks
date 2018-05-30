@@ -1,7 +1,7 @@
 ---
 title: "Say It With a Single Word"
 date: 2018-01-13T22:56:00+01:00
-description: "Expression bodied members and default expressions can for sure shorten our code. Sometimes even to a single word only ;-)"
+description: "Expression bodied members and default expressions can shorten our code a lot. Sometimes even to just a single word ;-)"
 categories: []
 keywords: ["sharpen-weekly", "expression-bodied-members", "default-expressions"]
 slug: ""

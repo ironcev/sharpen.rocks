@@ -1,7 +1,7 @@
 ---
 title: "Out Variables Under the Hood"
 date: 2018-01-14T21:43:00+01:00
-description: "Let's take a look on how C# 7.0 Out Variables work under the hood."
+description: "How C# 7.0 Out Variables work under the hood? An in-depth walk-through."
 categories: []
 keywords: ["under-the-hood", "out-variables"]
 slug: ""
