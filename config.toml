@@ -1,4 +1,4 @@
-baseURL = "http://sharpen.rocks/"
+baseURL = "https://sharpen.rocks/"
 paginate =  100
 defaultContentLanguage = "en"
 enableEmoji = true
