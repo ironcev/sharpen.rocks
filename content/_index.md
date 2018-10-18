@@ -48,7 +48,6 @@ sections:
     color_classes: bg-primary-color-light black
     image: /images/sections/analyze-your-code.png
     copy: "Start Sharpen analysis on your existing code. The bigger the code base, the better. Sharpen will search for places in the code that benefit of introducing new C# features."
-    disclaimer: "At the moment analysis supports several C# 6.0, 7.0, and 7.1 features."
     
   - heading: "3. Inspect the Analysis Results"
     cta: ""
