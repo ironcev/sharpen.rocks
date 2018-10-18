@@ -4,3 +4,10 @@ twitter_handle = "@Gogzs"
 quote = "this could end up being one awesome extension... make sure to follow so you can say you knew it while it was still uncool :D"
 link = "https://twitter.com/Gogzs/status/935121503418449920"
 date = 2017-11-27T00:00:00Z
+
+[[tweet]]
+name = "Dobrisa Adamec"
+twitter_handle = "@dadamec"
+quote = "Works freaking fast on laaarge solution. Very usefull, finds lot of lines that are waiting for improvement and give us smart hints for code cleaning/upgrading."
+link = "https://marketplace.visualstudio.com/items?itemName=ironcev.sharpen#review-details"
+date = 2018-10-03T00:00:00Z
