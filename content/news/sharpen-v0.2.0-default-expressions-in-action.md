@@ -44,4 +44,4 @@ This is just one of several interesting findings related to default expressions.
 # Release Content
 {{< release "0.2.0" >}}
 
-[Download Sharpen v0.2.0 from the Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ironcev.sharpen) and give it a try on your own. I'm curios how interesting your findings will be :-)
+[Download Sharpen v0.2.0 from the Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ironcev.sharpen) and give it a try on your own. I'm curious how interesting your findings will be :-)

@@ -73,4 +73,4 @@ So, what is exactly in the embarrassing v0.1.0? {{< release "0.1.0" >}} Here is 
 
 - Display of the results in a tree view that orders the findings by the C# version and suggestion.
 
-[Download Sharpen v0.1.0 from the Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ironcev.sharpen) and give it a try on your own. I'm curios how surprising your findings will be :-)
+[Download Sharpen v0.1.0 from the Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ironcev.sharpen) and give it a try on your own. I'm curious how surprising your findings will be :-)

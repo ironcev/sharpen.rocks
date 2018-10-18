@@ -83,4 +83,4 @@ And so, Sharpen v0.3.0 is there, available for [download on the Visual Studio Ma
 # Release Content
 {{< release "0.3.0" >}}
 
-Give Sharpen v0.3.0 a try on your own. As always, I'm curios about findings in your code ;-) Feel called to share them in the comments below.
+Give Sharpen v0.3.0 a try on your own. As always, I'm curious about findings in your code ;-) Feel called to share them in the comments below.

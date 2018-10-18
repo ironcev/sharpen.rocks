@@ -66,4 +66,4 @@ The overview of this first Endgame is available on [Sharpen's wiki](https://gith
 # Release Content
 {{< release "0.4.0" >}}
 
-Give Sharpen v0.4.0 a try on your own. As always, I'm curios about findings in your code ;-) Feel called to share them in the comments below.
+Give Sharpen v0.4.0 a try on your own. As always, I'm curious about findings in your code ;-) Feel called to share them in the comments below.

@@ -57,4 +57,4 @@ Another analysis run on a large WPF based desktop application demonstrated a hug
 
 I would like to thank to all the runners of the [Sharpen v0.5.0 Endgame](https://github.com/sharpenrocks/Sharpen/wiki/Endgame-for-v0.5.0) and to invite all of you reading these lines to participate in the next run.
 
-Finally, give Sharpen v0.5.0 a try on your own. As always, I'm curios about findings in your code ;-) Feel called to share them in the comments below.
+Finally, give Sharpen v0.5.0 a try on your own. As always, I'm curious about findings in your code ;-) Feel called to share them in the comments below.
