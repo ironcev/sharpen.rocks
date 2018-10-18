@@ -49,7 +49,7 @@ These six suggestions are just the first set of suggestions related to asynchron
 # Release Content
 {{< release "0.6.0" >}}
 
-As always, I would like to thank to all the runners of the [Sharpen Endgame](https://github.com/sharpenrocks/Sharpen/wiki/Endgame-for-v0.6.0) and to invite all of you reading these lines to participate in the next run.
+As always, I would like to thank all the runners of the [Sharpen Endgame](https://github.com/sharpenrocks/Sharpen/wiki/Endgame-for-v0.6.0) and to invite all of you reading these lines to participate in the next run.
 
 Finally, give Sharpen v0.6.0 a try on your own. As always, I'm curious about findings in your code ;-) Feel called to share them in the comments below.
 
