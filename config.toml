@@ -107,10 +107,11 @@ twitter = "sharpenrocks"
     url = "/news/"
 
   [[menu.global]]
-    name = "Blog"
+    name = "Why Sharpen?"
     weight = 5
-    identifier = "blog"
-    url = "/blog/"
+    identifier = "why-sharpen"
+    post = "external"
+    url = "https://github.com/sharpenrocks/Sharpen/wiki/Why-Sharpen"
 
   ## Anything with a weight > 100 gets an external icon
 
