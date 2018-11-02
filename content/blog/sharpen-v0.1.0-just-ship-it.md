@@ -5,7 +5,7 @@ description: "If you are not embarrassed by the first version of your product, y
 categories: []
 keywords: ["sharpen", "release"]
 slug: ""
-aliases: []
+aliases: [/news/sharpen-v0.1.0-just-ship-it/]
 toc: false
 draft: false
 ---

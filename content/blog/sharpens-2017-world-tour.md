@@ -5,7 +5,7 @@ description: "Austria, Croatia, India, and back. Sharpen ended its 2017 World To
 categories: []
 keywords: ["sharpen", "talk"]
 slug: ""
-aliases: []
+aliases: [/news/sharpens-2017-world-tour/]
 toc: false
 draft: false
 ---

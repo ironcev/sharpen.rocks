@@ -5,7 +5,7 @@ description: "Improve your code performance with Sharpen v0.6.0 Async and Await 
 categories: []
 keywords: ["sharpen", "release"]
 slug: ""
-aliases: []
+aliases: [/news/sharpen-v0.6.0-async-and-await/]
 toc: false
 draft: false
 ---

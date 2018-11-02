@@ -5,7 +5,7 @@ description: "What makes Sharpen different then ReSharper?"
 categories: []
 keywords: ["sharpen", "resharper"]
 slug: ""
-aliases: [/blog/sharpen-vs-resharper/]
+aliases: [/news/sharpen-vs-resharper/]
 toc: false
 draft: false
 ---

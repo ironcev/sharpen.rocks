@@ -5,7 +5,7 @@ description: "Having unused out variables in your code? Let the Sharpen v0.4.0 r
 categories: []
 keywords: ["sharpen", "release"]
 slug: ""
-aliases: []
+aliases: [/news/sharpen-v0.4.0-discarding-out-variables/]
 toc: false
 draft: false
 ---

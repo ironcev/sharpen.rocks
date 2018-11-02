@@ -5,7 +5,7 @@ description: "Await task instead of calling Task.Result ;-)"
 categories: []
 keywords: ["sharpen", "release"]
 slug: ""
-aliases: []
+aliases: [/news/sharpen-v0.6.1-a-forgotten-suggestion/]
 toc: false
 draft: false
 ---

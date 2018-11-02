@@ -5,7 +5,7 @@ description: "Sharpen v0.3.0 has landed! Bringing us C# 7.1 out variables develo
 categories: []
 keywords: ["sharpen", "release"]
 slug: ""
-aliases: []
+aliases: [/news/sharpen-v0.3.0-out-variables-at-36000-feet/]
 toc: false
 draft: false
 ---

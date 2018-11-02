@@ -5,7 +5,7 @@ description: "Clean up messy code with the help of Sharpen v0.5.0 and nameof exp
 categories: []
 keywords: ["sharpen", "release"]
 slug: ""
-aliases: []
+aliases: [/news/sharpen-v0.5.0-nameof-expressions-in-exceptions-and-dependency-properties/]
 toc: false
 draft: false
 ---

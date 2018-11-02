@@ -5,7 +5,7 @@ description: "Icon Matters. It matters so much that it even deserves its own (mi
 categories: []
 keywords: ["sharpen", "release"]
 slug: ""
-aliases: []
+aliases: [/news/sharpen-v0.1.1-icon-matters/]
 toc: false
 draft: false
 ---

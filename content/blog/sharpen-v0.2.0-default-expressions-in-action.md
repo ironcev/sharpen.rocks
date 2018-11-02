@@ -5,7 +5,7 @@ description: "Sharpen v0.2.0 is there :-) Featuring C# 7.1 default expressions."
 categories: []
 keywords: ["sharpen", "release"]
 slug: ""
-aliases: []
+aliases: [/news/sharpen-v0.2.0-default-expressions-in-action/]
 toc: false
 draft: false
 ---
