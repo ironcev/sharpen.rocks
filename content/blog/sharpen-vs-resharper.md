@@ -26,7 +26,7 @@ And so here I am, answering the question (six month after it was asked, shame on
 
 Sharpen and ReSharper fulfill different purposes and cover different use cases. I find them to be complementary. This comparison gives a summary of their major differences:
 
-![Sharpen vs ReSharper](/images/news/sharpen-vs-resharper/sharpen-vs-resharper.png)
+![Sharpen vs ReSharper](/images/blog/sharpen-vs-resharper/sharpen-vs-resharper.png)
 
 Let's explore those differences in more detail.
 
@@ -44,11 +44,11 @@ Sharpen's suggestions are also more precise and always bring a context around th
 
 Just as an example, while ReSharper will always say "inconsistent body style: use expression body":
 
-![ReSharper - inconsistent body style: use expression body](/images/news/sharpen-vs-resharper/resharper-inconsistent-body-style-use-expression-body.png)
+![ReSharper - inconsistent body style: use expression body](/images/blog/sharpen-vs-resharper/resharper-inconsistent-body-style-use-expression-body.png)
 
 Sharpen will break this suggestion into several in order to provide meaningful context and if necessary detailed documentation for every particular case:
 
-![Sharpen - use expression-body suggestions](/images/news/sharpen-vs-resharper/sharpen-use-expression-body-suggestions.png)
+![Sharpen - use expression-body suggestions](/images/blog/sharpen-vs-resharper/sharpen-use-expression-body-suggestions.png)
 
 ## On Demand vs Continuous Usage
 

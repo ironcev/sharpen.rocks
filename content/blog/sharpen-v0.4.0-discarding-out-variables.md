@@ -15,7 +15,7 @@ draft: false
 
 To demonstrate such a case, let's take a look at a [concrete example taken from the NHibernate project](https://github.com/nhibernate/nhibernate-core/blob/a407afba873ef168a6808e5d4c950bc136206279/src/NHibernate/Dialect/Oracle8iDialect.cs#L382):
 
-![Discarding out variables in NHibernate](/images/news/sharpen-v0.4.0-discarding-out-variables/sharpen-discarding-out-variables-in-nhibernate.png )
+![Discarding out variables in NHibernate](/images/blog/sharpen-v0.4.0-discarding-out-variables/sharpen-discarding-out-variables-in-nhibernate.png )
 
 Here is the implementation of the `ExtractColumnOrAliasNames` as it is now:
 
@@ -57,9 +57,9 @@ I am grateful to my friends, Sharpen supporters and early adopters, who voluntee
 
 It made me happy to see them sending me screenshots of the Sharpen result analysis of their own large projects, although I didn't ask them for that :-) It was great to see it visually, Sharpen running in different version of Visual Studio, under different color themes, etc. Here are two of the screenshots:
 
-![Running Sharpen analysis in a concrete project 01](/images/news/sharpen-v0.4.0-discarding-out-variables/running-sharpen-analysis-in-a-concrete-project-01.png)
+![Running Sharpen analysis in a concrete project 01](/images/blog/sharpen-v0.4.0-discarding-out-variables/running-sharpen-analysis-in-a-concrete-project-01.png)
 
-![Running Sharpen analysis in a concrete project 02](/images/news/sharpen-v0.4.0-discarding-out-variables/running-sharpen-analysis-in-a-concrete-project-02.png)
+![Running Sharpen analysis in a concrete project 02](/images/blog/sharpen-v0.4.0-discarding-out-variables/running-sharpen-analysis-in-a-concrete-project-02.png)
 
 The overview of this first Endgame is available on [Sharpen's wiki](https://github.com/sharpenrocks/Sharpen/wiki/Endgame-for-v0.4.0). If you want to participate in the Endgame as a "runner" for the upcoming Sharpen versions, please let me know. I will be happy and honored to invite you to the game :-)
 

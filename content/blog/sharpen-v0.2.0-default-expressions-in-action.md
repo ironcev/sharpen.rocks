@@ -35,7 +35,7 @@ These are in practice the three most prominent places where the default values a
 
 As always I was curious of the findings in the real-life code. And for sure (this time without a surprise) there were many findings worth showcasing. Just to give you a glimpse of the new feature, here are the default expression related findings in the [NHibernate](http://nhibernate.info/) code:
 
-![Sharpen results for default expressions usages in NHibernate](/images/news/sharpen-v0.2.0-default-expressions-in-action/sharpen-results-default-expressions-in-nhibernate.png)
+![Sharpen results for default expressions usages in NHibernate](/images/blog/sharpen-v0.2.0-default-expressions-in-action/sharpen-results-default-expressions-in-nhibernate.png)
 
 Here is on of the interesting findings. Async methods in NHibernate follow the usual pattern of accepting an optional [CancellationToken](https://msdn.microsoft.com/en-us/library/system.threading.cancellationtoken(v=vs.110).aspx) parameter. And since the `CancellationToken` is a `struct`, the only way to provide the default value, prior to C# 7.1, was to write `default(CancellationToken)`. With C# 7.1 this simply narrows down to `default`. I would personally love to see NHibernate's code loosing a bit of weight in this area :-)
 

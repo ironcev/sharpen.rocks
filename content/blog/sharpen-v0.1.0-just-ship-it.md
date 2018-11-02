@@ -14,7 +14,7 @@ Proud and embarrassed at the same time, I'm happy to announce that the Sharpen v
  
 [Reid Hoffman](https://en.wikipedia.org/wiki/Reid_Hoffman) famously wrote:
 
-![If you are not embarrassed by the first version of your product, you've launched too late](/images/news/sharpen-v0.1.0-just-ship-it/if-you-are-not-embarrassed-by-the-first-version-of-your-product-youve-launched-too-late.png)
+![If you are not embarrassed by the first version of your product, you've launched too late](/images/blog/sharpen-v0.1.0-just-ship-it/if-you-are-not-embarrassed-by-the-first-version-of-your-product-youve-launched-too-late.png)
 
 Considering that I'am embarrassed with its first incarnation, Sharpen obviously didn't launch too late :-) And I hope it didn't launch [too early](https://www.inc.com/neil-patel/why-i-totally-disagree-with-just-ship-it-startup-mentality.html) either.
 
@@ -50,15 +50,15 @@ Last but not least it has given first interesting results and insights. I was al
 
 As soon as the first Sharpen suggestions were implemented I ran them on one of such "average" projects, average for the company I work for:
 
-![An average C# project](/images/news/sharpen-v0.1.0-just-ship-it/average-csharp-project.png)
+![An average C# project](/images/blog/sharpen-v0.1.0-just-ship-it/average-csharp-project.png)
 
 Intuitively I expected thousand-something findings. But not tens of thousands! Here are the Sharpen v0.1.0 results for that average C# project:
 
-![Sharpen results for an average C# project](/images/news/sharpen-v0.1.0-just-ship-it/sharpen-results-for-an-average-csharp-project.png)
+![Sharpen results for an average C# project](/images/blog/sharpen-v0.1.0-just-ship-it/sharpen-results-for-an-average-csharp-project.png)
 
 The results for open source C# projects were no less surprising. Here are the Sharpen v0.1.0 results for [NHibernate](http://nhibernate.info/):
 
-![Sharpen results for NHibernate](/images/news/sharpen-v0.1.0-just-ship-it/sharpen-results-for-nhibernate.png)
+![Sharpen results for NHibernate](/images/blog/sharpen-v0.1.0-just-ship-it/sharpen-results-for-nhibernate.png)
 
 Of course, not all of those 10,000+ places are the places where we want to use the features. My manual inspection of the findings says that roughly 30% of them are places where we actually do not want to apply a certain suggestion. Exactly on these 30% I expect Sharpen recommendations to one day give a clear *No!* to a language feature.
 

@@ -16,7 +16,7 @@ Immediately after shipping the [Sharpen v0.1.0]({{< ref "sharpen-v0.1.0-just-shi
 
 And the default icon looks, well... like this :-(
 
-![Visual Studio Extension Default Icon](/images/news/sharpen-v0.1.1-icon-matters/visual-studio-extension-default-icon.png)
+![Visual Studio Extension Default Icon](/images/blog/sharpen-v0.1.1-icon-matters/visual-studio-extension-default-icon.png)
 
 Yes, I've crafted the Sharpen's logo in less then 10 minutes. Those of you who follow [Sharpen on Twitter](https://twitter.com/sharpenrocks) are already aware of that:
 

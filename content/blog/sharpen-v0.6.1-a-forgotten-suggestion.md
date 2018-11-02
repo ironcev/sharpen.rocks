@@ -15,11 +15,11 @@ draft: false
 
 While adding and trying out that suggestion I also noticed that the location in code on which the suggestion applies is not optimally presented. Basically, the display of the issue more or less always looked the same:
 
-![Sharpen Await task instead of waiting Task.Result - Bad display](/images/news/sharpen-v0.6.1-a-forgotten-suggestion/sharpen-await-task-instead-of-waiting-task-result-bad-display.png)
+![Sharpen Await task instead of waiting Task.Result - Bad display](/images/blog/sharpen-v0.6.1-a-forgotten-suggestion/sharpen-await-task-instead-of-waiting-task-result-bad-display.png)
 
 So I've improved the affected code display by showing the enclosing statement:
 
-![Sharpen Await task instead of waiting Task.Result - Good display](/images/news/sharpen-v0.6.1-a-forgotten-suggestion/sharpen-await-task-instead-of-waiting-task-result-good-display.png)
+![Sharpen Await task instead of waiting Task.Result - Good display](/images/blog/sharpen-v0.6.1-a-forgotten-suggestion/sharpen-await-task-instead-of-waiting-task-result-good-display.png)
 
 This applies to all other "Await ABC instead of calling XYZ" suggestions as well.
 

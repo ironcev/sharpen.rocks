@@ -20,7 +20,7 @@ And that's exactly what I did. I knew that my "high-altitude work" will for sure
 
 A few hours after we reached our cruising altitude, somewhere high over the Atlantic ocean, the first usable version of the "Use out variables in method invocations" suggestion was born :-)
 
-![C# Out Variables at 36000 Feet](/images/news/sharpen-v0.3.0-out-variables-at-36000-feet/sharpen-csharp-out-variables-at-36000-feet.jpg)
+![C# Out Variables at 36000 Feet](/images/blog/sharpen-v0.3.0-out-variables-at-36000-feet/sharpen-csharp-out-variables-at-36000-feet.jpg)
 
 # Better Done Then Perfect
 
@@ -76,7 +76,7 @@ Covering all the quirky cases that crossed my mind would take me some more devel
 
 As often in such cases, I follow the advice given on the photo that a friend once sent to me in an effort to cure my perfectionism :-)
 
-![Done is better than perfect](/images/news/sharpen-v0.3.0-out-variables-at-36000-feet/done-is-better-than-perfect.jpg)
+![Done is better than perfect](/images/blog/sharpen-v0.3.0-out-variables-at-36000-feet/done-is-better-than-perfect.jpg)
 
 And so, Sharpen v0.3.0 is there, available for [download on the Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ironcev.sharpen) :-) Featuring non-perfect out variable suggestion and a better grouping of suggestions in the Sharpen Result view. Enjoy it!
 

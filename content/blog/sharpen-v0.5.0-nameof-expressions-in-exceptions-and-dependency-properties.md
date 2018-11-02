@@ -46,11 +46,11 @@ Yet, this approach came with run-time costs and wasn't always really practical, 
 
 As always, it was interesting to see how often these cases appear in real-life code. Our standard sample project, [NHibernate](http://nhibernate.info/), is not a WPF project so we didn't expect any dependency property declarations to be found. On the other hand, hard coded parameter names in argument expressions appear in NHibernate code many times:
 
-![Use C# 6.0 nameof expression for throwing argument expressions in NHibernate](/images/news/sharpen-v0.5.0-nameof-expressions-in-exceptions-and-dependency-properties/use-csharp-6-nameof-expression-for-throwing-argument-exceptions-in-nhibernate.png )
+![Use C# 6.0 nameof expression for throwing argument expressions in NHibernate](/images/blog/sharpen-v0.5.0-nameof-expressions-in-exceptions-and-dependency-properties/use-csharp-6-nameof-expression-for-throwing-argument-exceptions-in-nhibernate.png )
 
 Another analysis run on a large WPF based desktop application demonstrated a huge potential for usage of `nameof` expressions in dependency property declarations:
 
-![C# 6.0 nameof expression in a large desktop application](/images/news/sharpen-v0.5.0-nameof-expressions-in-exceptions-and-dependency-properties/csharp-6-nameof-expression-in-a-large-desktop-application.png )
+![C# 6.0 nameof expression in a large desktop application](/images/blog/sharpen-v0.5.0-nameof-expressions-in-exceptions-and-dependency-properties/csharp-6-nameof-expression-in-a-large-desktop-application.png )
 
 # Release Content
 {{< release "0.5.0" >}}

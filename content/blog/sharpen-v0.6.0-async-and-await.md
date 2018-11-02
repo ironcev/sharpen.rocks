@@ -13,7 +13,7 @@ draft: false
 
 [Sharpen 0.6.0](https://marketplace.visualstudio.com/items?itemName=ironcev.sharpen) has just been released, featuring six new suggestions, all of them related to [C# 5.0 Async and Await feature](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/). Here is a glimpse of what you might get when you run an analysis on your own code:
 
-![Sharpen Async and Await suggestions](/images/news/sharpen-v0.6.0-async-and-await/sharpen-async-await-suggestions.png)
+![Sharpen Async and Await suggestions](/images/blog/sharpen-v0.6.0-async-and-await/sharpen-async-await-suggestions.png)
 
 Like all the previous Sharpen releases this one was also driven by two primary drivers- [a public talk and travel]({{< ref "sharpens-2017-world-tour.md" >}}). Proper usage of Async and Await was a part of the conference workshop titled [High-Performance ASP.NET Core](https://2018.webcampzg.org/workshops/high-performance-aspnet-core/), that [Dobriša Adamec](https://www.linkedin.com/in/dadamec/) and I held at [WebCamp Zagreb Conference](https://2018.webcampzg.org/).
 
@@ -38,7 +38,7 @@ On the other hand, having synchronous IO calls in `async` methods instead of awa
 
 Running the analysis on real-life projects, not surprisingly, confirmed both of the points. Here is the result of analyzing a seven-years-old web application consisting of more than 70 projects.
 
-![Sharpen Async and Await suggestions on a real-life project](/images/news/sharpen-v0.6.0-async-and-await/sharpen-async-await-suggestions-on-a-real-life-project.png)
+![Sharpen Async and Await suggestions on a real-life project](/images/blog/sharpen-v0.6.0-async-and-await/sharpen-async-await-suggestions-on-a-real-life-project.png)
 
 As you can see, there are plenty of places where blocking, synchronous IO calls sneaked into `async` methods. It turned out that some of the suggestions to consider using Async and Await were also very valuable.
 

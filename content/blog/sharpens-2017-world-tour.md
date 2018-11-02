@@ -21,7 +21,7 @@ My search, worth writing a blog post at least, ended in vain. And that was the m
 
 The very first version used in a public talk was written over the weekend just before [the talk](https://www.meetup.com/MicrosoftDeveloperGraz/events/243975926/). For the record, here is how the Sharpen Result window looked at the time:
 
-![The first version of the Sharpen results window](/images/news/sharpens-2017-world-tour/the-first-version-of-the-sharpen-results-window.png)
+![The first version of the Sharpen results window](/images/blog/sharpens-2017-world-tour/the-first-version-of-the-sharpen-results-window.png)
 
 As you can see I didn't have enough time to implement even a simple tree view.
 
@@ -60,4 +60,4 @@ It's not about the traveling. But still, it looks to me that traveling and Sharp
 
 Here they are, Sharpen's [C# 7.0 out variables](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-7#out-variables) suggestions in action, giving first valuable results somewhere high over the Atlantic Ocean :-)
 
-![Sharpen's C# 7.0 out variables suggestions high over the Atlantic Ocean](/images/news/sharpens-2017-world-tour/sharpen-csharp-70-out-variables-over-the-atlantic-ocean.jpg)
+![Sharpen's C# 7.0 out variables suggestions high over the Atlantic Ocean](/images/blog/sharpens-2017-world-tour/sharpen-csharp-70-out-variables-over-the-atlantic-ocean.jpg)
