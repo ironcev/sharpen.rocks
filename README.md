@@ -1,5 +1,5 @@
 # sharpen.rocks
-This is the source code of the [Sharpen](https://github.com/sharpenrocks/Sharpen)'s website: [http://sharpen.rocks](http://sharpen.rocks).
+This is the source code of the [Sharpen](https://github.com/sharpenrocks/Sharpen)'s website: [https://sharpen.rocks](https://sharpen.rocks).
 
 ## Running the Website Locally
 The website is built using [Hugo](https://gohugo.io/). To run it locally you just have to [install Hugo](https://gohugo.io/getting-started/installing/) and run:
