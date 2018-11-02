@@ -10,7 +10,7 @@ toc: false
 draft: false
 ---
 # Expression Bodied Members and Default Expressions, Hand in Hand
-Immediately after [implementing the C# 7.1 default expressions in Sharpen]({{< ref "news/sharpen-v0.2.0-default-expressions-in-action.md" >}}) I ran them on the [NHibernate](http://nhibernate.info/) code. And here is one of my absolutely favorite findings.
+Immediately after [implementing the C# 7.1 default expressions in Sharpen]({{< ref "sharpen-v0.2.0-default-expressions-in-action.md" >}}) I ran them on the [NHibernate](http://nhibernate.info/) code. And here is one of my absolutely favorite findings.
 
 ![NHibernate - Say It With a Single Word - Default Expression](/images/blog/say-it-with-a-single-word/sharpen-weekly-nhibernate-say-it-with-a-single-word.png)
 
