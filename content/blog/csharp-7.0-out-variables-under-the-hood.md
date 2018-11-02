@@ -1,11 +1,11 @@
 ---
-title: "Out Variables Under the Hood"
+title: "C# 7.0 Out Variables Under the Hood"
 date: 2018-01-14T21:43:00+01:00
 description: "How C# 7.0 Out Variables work under the hood? An in-depth walk-through."
 categories: []
 keywords: ["under-the-hood", "out-variables"]
 slug: ""
-aliases: []
+aliases: [/blog/out-variables-under-the-hood/]
 toc: false
 draft: false
 ---
@@ -36,7 +36,7 @@ To answer these questions (and actually all under-the-hood kind of questions) we
 
 To use this feature, simply select the *Results C#* on the top of the SharpLab's right panel:
 
-![SharpLab - showing the compilation result as an equivalent C# code](/images/blog/out-variables-under-the-hood/sharplab-showing-the-compilation-result-as-an-equivalent-csharp-code.png)
+![SharpLab - showing the compilation result as an equivalent C# code](/images/blog/csharp-7.0-out-variables-under-the-hood/sharplab-showing-the-compilation-result-as-an-equivalent-csharp-code.png)
 
 The equivalent C# code is more or less one-to-one translation of the underlying IL construct to C#. In other words, it removes all the syntax sugar and higher level C# features, like in this case, out variables.
 
