@@ -1,7 +1,7 @@
 ---
 title: "Sharpen v0.6.1 - A Forgotten Suggestion"
 date: 2018-10-08T20:00:00+01:00
-description: "Await task instead of calling Task.Result ;-)"
+description: "Await task instead of calling Task.Result."
 categories: []
 keywords: ["sharpen", "release"]
 slug: ""
