@@ -34,7 +34,7 @@ section = [ "HTML", "RSS"]
 
 [mediaTypes]
 [mediaTypes."text/netlify"]
-suffix = ""
+suffixes = [""]
 delimiter = ""
 
 [outputFormats]
