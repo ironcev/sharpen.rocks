@@ -34,7 +34,7 @@ Let's explore those differences in more detail.
 
 Both tools offer refactoring, which is an obvious overlap. (Actually, to be precise, in its current version 0.5.0 Sharpen still do not offer its own refactoring, but this is a planned feature and a big part of [Sharpen's vision](/).) But Sharpen's and ReSharper's refactoring is used for different purposes. ReSharper focuses on developer's productivity and [its refactoring serves developer's productivity and quality](https://www.jetbrains.com/resharper/features/code_refactoring.html).
 
-On the other hand, Sharpen utilize refactoring to bring awareness of new C# features and to intelligently introduce them into an existing code base. In other words, ReSharper focuses on productivity, while Sharpen focuses on learning. To give a full picture, we have to say that Sharpen indirectly also increases developer's productivity and code quality. Proposed new language features often bring better expressiveness that affects coding productivity. Removing unnecessary clutter from code or [replacing parts of code with safer equivalents]({{< ref "sharpen-v0.5.0-nameof-expressions-in-exceptions-and-dependency-properties.md" >}}) directly affects code quality.
+On the other hand, Sharpen utilize refactoring to bring awareness of new C# features and to intelligently introduce them into an existing codebase. In other words, ReSharper focuses on productivity, while Sharpen focuses on learning. To give a full picture, we have to say that Sharpen indirectly also increases developer's productivity and code quality. Proposed new language features often bring better expressiveness that affects coding productivity. Removing unnecessary clutter from code or [replacing parts of code with safer equivalents]({{< ref "sharpen-v0.5.0-nameof-expressions-in-exceptions-and-dependency-properties.md" >}}) directly affects code quality.
 
 ## Only New C# Features vs General Static Analysis
 
@@ -54,7 +54,7 @@ Sharpen will break this suggestion into several in order to provide meaningful c
 
 ReSharper runs 24 / 7. Once installed, it becomes an integral part of overall Visual Studio coding experience. When you get use to it, it becomes difficult to imagine programming without it. Unlike that, Sharpen is meant to be used occasionally and started on demand.
 
-Yes, you heard it right. Sharpen does not offer any suggestions in the editor while typing and it never will. Running the analysis must be a conscious, separate act. Act performed in order to learn, to recognize refactoring potential, to plan switching the code base to new C# features.
+Yes, you heard it right. Sharpen does not offer any suggestions in the editor while typing and it never will. Running the analysis must be a conscious, separate act. Act performed in order to learn, to recognize refactoring potential, to plan switching the codebase to new C# features.
 
 This being said, one of my major motivations to develop Sharpen was supporting my talks and workshops. Demonstrating new C# features on artificial code samples is not nearly that powerful and didactically advanced as demonstrating them on real-life code - *your* own code.
 

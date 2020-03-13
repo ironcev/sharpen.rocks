@@ -5,7 +5,7 @@ date: 2017-12-30T12:00:00-05:00
 features:
   - heading: Faster Learning of New C# Features
     image_path: /images/features/faster-learning.svg
-    tagline: Learn new C# features faster by applying them to your existing code base.
+    tagline: Learn new C# features faster by applying them to your existing codebase.
     copy: Forget the simplified, artificial code samples often used to introduce new C# features. Sharpen points to places in real-life production code - your code! - where new C# features should be used.
 
   - heading: Critical Approach to New C# Features
@@ -16,7 +16,7 @@ features:
   - heading: Consistent Usage of C# Features
     image_path: /images/features/consistent-usage.svg
     tagline: Consistency matters. Your preferences as well.
-    copy: Once configured on your project, Sharpen ensures that C# language features are consistently used over the whole code base. 
+    copy: Once configured on your project, Sharpen ensures that C# language features are consistently used over the whole codebase. 
 
   - heading: Code Refactoring on Arbitrary Scale
     image_path: /images/features/code-refactorings.svg
@@ -47,7 +47,7 @@ sections:
     link: ""
     color_classes: bg-primary-color-light black
     image: /images/sections/analyze-your-code.png
-    copy: "Start Sharpen analysis on your existing code. The bigger the code base, the better. Sharpen will search for places in the code that benefit of introducing new C# features."
+    copy: "Start Sharpen analysis on your existing code. The bigger the codebase, the better. Sharpen will search for places in the code that benefit of introducing new C# features."
     
   - heading: "3. Inspect the Analysis Results"
     cta: ""
@@ -66,4 +66,4 @@ sections:
     disclaimer: "Refactoring is still a work in progress."
 ---
 
-A Visual Studio extension that intelligently introduces new C# features into your existing code base.
+A Visual Studio extension that intelligently introduces new C# features into your existing codebase.
