@@ -101,12 +101,6 @@ twitter = "sharpenrocks"
 
 # Global menu items
 
-[[menu.global]]
-    name = "Blog"
-    weight = 1
-    identifier = "blog"
-    url = "/blog/"
-
   [[menu.global]]
     name = "Why Sharpen?"
     weight = 5
