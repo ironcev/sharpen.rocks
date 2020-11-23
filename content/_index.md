@@ -6,7 +6,7 @@ features:
   - heading: Faster Learning of New C# Features
     image_path: /images/features/faster-learning.svg
     tagline: Learn new C# features faster by applying them to your existing codebase.
-    copy: Forget the simplified, artificial code samples often used to introduce new C# features. Sharpen points to places in real-life production code - your code! - where new C# features should be used.
+    copy: Sharpen points you to places in real-life production code - your production code! - where you can learn and apply modern C#. This is a far cry from simplified and artificial code samples often used to explain new C# features. Sharpen allows you to learn and understand modern C# in the context of your own code.
 
   - heading: Code Refactoring on Arbitrary Scale
     image_path: /images/features/code-refactorings.svg
